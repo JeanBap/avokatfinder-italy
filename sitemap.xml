@@ -136,6 +136,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://italy.avokatfinder.com/cities/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://italy.avokatfinder.com/cities/milan/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
