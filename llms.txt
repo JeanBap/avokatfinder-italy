@@ -11,19 +11,16 @@
 
 ## Legal Glossary Terms
 - https://italy.avokatfinder.com/glossary/codice-fiscale/
-- https://italy.avokatfinder.com/glossary/codice-fiscale/
 - https://italy.avokatfinder.com/glossary/compromesso/
-- https://italy.avokatfinder.com/glossary/contratto-locazione/
 - https://italy.avokatfinder.com/glossary/imu/
-- https://italy.avokatfinder.com/glossary/partita-iva/
 - https://italy.avokatfinder.com/glossary/permesso-di-soggiorno/
+- https://italy.avokatfinder.com/glossary/rogito/
+- https://italy.avokatfinder.com/glossary/visura-catastale/
+- https://italy.avokatfinder.com/glossary/contratto-locazione/
+- https://italy.avokatfinder.com/glossary/partita-iva/
 - https://italy.avokatfinder.com/glossary/permesso-soggiorno/
 - https://italy.avokatfinder.com/glossary/preliminare-vendita/
-- https://italy.avokatfinder.com/glossary/rogito/
-- https://italy.avokatfinder.com/glossary/rogito/
 - https://italy.avokatfinder.com/glossary/successione-italy/
-- https://italy.avokatfinder.com/glossary/visura-catastale/
-- https://italy.avokatfinder.com/glossary/visura-catastale/
 
 ## Site Info
 - Language: English
