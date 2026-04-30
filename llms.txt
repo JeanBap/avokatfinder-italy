@@ -1,5 +1,37 @@
 # AvökatFinder Italy
-> English-speaking law firm directory for Italy
+> The English-language directory of lawyers and law firms in Italy for expats, foreign nationals and international businesses.
 
-Directory: https://italy.avokatfinder.com
-Email: info@avokatfinder.com
+## Main Pages
+- https://italy.avokatfinder.com/: Home — find an English-speaking lawyer in Italy
+- https://italy.avokatfinder.com/lawyers/: Directory of verified law firms and lawyers in Italy
+- https://italy.avokatfinder.com/glossary/: Legal glossary — plain-English definitions of Italy legal terms
+- https://italy.avokatfinder.com/blog/: Expat legal guides and property law articles for Italy
+- https://italy.avokatfinder.com/about/: About AvökatFinder Italy
+- https://italy.avokatfinder.com/contact/: Contact us
+
+## Legal Glossary Terms
+- https://italy.avokatfinder.com/glossary/codice-fiscale/
+- https://italy.avokatfinder.com/glossary/codice-fiscale/
+- https://italy.avokatfinder.com/glossary/compromesso/
+- https://italy.avokatfinder.com/glossary/contratto-locazione/
+- https://italy.avokatfinder.com/glossary/imu/
+- https://italy.avokatfinder.com/glossary/partita-iva/
+- https://italy.avokatfinder.com/glossary/permesso-di-soggiorno/
+- https://italy.avokatfinder.com/glossary/permesso-soggiorno/
+- https://italy.avokatfinder.com/glossary/preliminare-vendita/
+- https://italy.avokatfinder.com/glossary/rogito/
+- https://italy.avokatfinder.com/glossary/rogito/
+- https://italy.avokatfinder.com/glossary/successione-italy/
+- https://italy.avokatfinder.com/glossary/visura-catastale/
+- https://italy.avokatfinder.com/glossary/visura-catastale/
+
+## Site Info
+- Language: English
+- Audience: Expats, foreign nationals, international property buyers and businesses in Italy
+- Content: Law firm directory, legal glossary, expat legal guides
+- Last updated: 2026-04-30
+- Sitemap: https://italy.avokatfinder.com/sitemap.xml
+
+## Permissions
+User-agent: *
+Allow: /
