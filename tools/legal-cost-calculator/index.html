@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Italian Property &amp; Legal Cost Calculator 2025 | AvökatFinder Italy</title>
+<meta name="description" content="Calculate Italian property purchase costs: imposta di registro (2% prima casa, 9% seconda casa), IMU, notaio fees (DM 265/2012), SRL formation, and visa fees. Updated 2025.">
+<link rel="canonical" href="https://italy.avokatfinder.com/tools/legal-cost-calculator/">
+<meta property="og:title" content="Italian Legal Cost Calculator 2025">
+<meta property="og:description" content="Accurate Italian property tax and legal cost estimates based on current tax law.">
+<meta property="og:url" content="https://italy.avokatfinder.com/tools/legal-cost-calculator/">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Italian Legal Cost Calculator 2025","url":"https://italy.avokatfinder.com/tools/legal-cost-calculator/","description":"Calculate imposta di registro, IMU, notaio emoluments and SRL formation costs in Italy.","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Italy","item":"https://italy.avokatfinder.com/"},{"@type":"ListItem","position":2,"name":"Legal Tools","item":"https://italy.avokatfinder.com/tools/"},{"@type":"ListItem","position":3,"name":"Cost Calculator","item":"https://italy.avokatfinder.com/tools/legal-cost-calculator/"}]},"mainEntity":{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the imposta di registro on Italian property?","acceptedAnswer":{"@type":"Answer","text":"For prima casa (primary residence) bought from a private seller: 2% of cadastral value. For seconda casa: 9% of cadastral value. Minimum €1,000 in both cases. If bought from a developer with IVA: 4% IVA (prima casa) or 10% IVA (seconda casa) replaces registro."}},{"@type":"Question","name":"How much are Italian notaio fees?","acceptedAnswer":{"@type":"Answer","text":"Notaio fees follow DM 265/2012 (Decreto Ministeriale on notarial tariffs). For a €300,000 purchase the notaio emolument is typically €1,800–€2,500 plus IVA at 22%, plus reimbursement of registration taxes paid on your behalf."}}]}}
+</script>
+<style>
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin:0;color:#1a1a2e;background:#f8f9fa}
+header{background:#1a1a2e;color:#fff;padding:16px 24px;display:flex;align-items:center;gap:16px}
+header a{color:#f0c040;text-decoration:none;font-weight:700;font-size:1.3rem}
+.hero{background:linear-gradient(135deg,#1a1a2e 0%,#2d5016 100%);color:#fff;padding:40px 24px;text-align:center}
+.hero h1{font-size:1.9rem;margin:0 0 10px}
+.hero p{opacity:.9;max-width:600px;margin:0 auto}
+.container{max-width:900px;margin:0 auto;padding:32px 24px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:32px}
+.tab{padding:10px 18px;border:2px solid #2d5016;border-radius:8px;cursor:pointer;font-weight:600;background:#fff;color:#2d5016;font-size:.9rem;transition:all .2s}
+.tab.active{background:#2d5016;color:#fff}
+.panel{display:none}
+.panel.active{display:block}
+.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.08);padding:28px;margin-bottom:24px}
+h2{font-size:1.3rem;margin:0 0 20px;color:#1a1a2e}
+label{display:block;font-weight:600;margin-bottom:6px;color:#333;font-size:.95rem}
+input[type=number],select{width:100%;padding:10px 14px;border:1.5px solid #ddd;border-radius:8px;font-size:1rem;margin-bottom:18px;background:#fff}
+input[type=number]:focus,select:focus{outline:none;border-color:#2d5016}
+button{background:#2d5016;color:#fff;border:none;padding:12px 28px;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer;transition:background .2s}
+button:hover{background:#1e3a0f}
+.result-box{background:linear-gradient(135deg,#f0f9e8,#e8f5e0);border:2px solid #2d5016;border-radius:12px;padding:24px;margin-top:20px;display:none}
+.result-box h3{margin:0 0 16px;color:#1a1a2e}
+.result-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #d0e8c0;font-size:.95rem}
+.result-row:last-child{border-bottom:none;font-weight:700;font-size:1.05rem;padding-top:12px;color:#2d5016}
+.info-box{background:#fff8e1;border-left:4px solid #f0c040;padding:14px 18px;border-radius:0 8px 8px 0;margin-top:16px;font-size:.9rem;line-height:1.6}
+table{width:100%;border-collapse:collapse;margin-top:16px}
+th{background:#2d5016;color:#fff;padding:10px 12px;text-align:left;font-size:.85rem}
+td{padding:9px 12px;border-bottom:1px solid #e8e8e8;font-size:.88rem}
+tr:nth-child(even){background:#f8faf5}
+footer{background:#1a1a2e;color:#ccc;padding:32px 24px;margin-top:64px;text-align:center;font-size:.85rem}
+</style>
+</head>
+<body>
+<header>
+<a href="/">AvökatFinder Italy</a>
+<nav style="margin-left:auto;display:flex;gap:20px">
+<a href="/tools/" style="color:#f0c040;text-decoration:none">← All Tools</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Italian Legal Cost Calculator 2025</h1>
+<p>Imposta di registro, IMU, notaio emoluments (DM 265/2012), company formation, and visa fees — based on current Italian tax law.</p>
+</div>
+
+<div class="container">
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('property')">🏠 Property Purchase</div>
+  <div class="tab" onclick="switchTab('company')">🏢 Company Formation</div>
+  <div class="tab" onclick="switchTab('visa')">✈️ Investor Visa</div>
+  <div class="tab" onclick="switchTab('avvocato')">⚖️ Avvocato Fees</div>
+</div>
+
+<!-- PROPERTY TAB -->
+<div id="property" class="panel active">
+<div class="card">
+<h2>Property Purchase Cost Calculator</h2>
+<label>Purchase Price (€)</label>
+<input type="number" id="prop_price" value="300000" min="50000" step="10000">
+<label>Cadastral Value (€) — if unknown, enter purchase price × 0.75</label>
+<input type="number" id="cad_value" value="225000" min="0" step="5000">
+<label>Purchase Type</label>
+<select id="prop_type">
+  <option value="prima_privato">Prima Casa — bought from private seller</option>
+  <option value="seconda_privato">Seconda Casa — bought from private seller</option>
+  <option value="prima_developer">Prima Casa — new build from developer (IVA applies)</option>
+  <option value="seconda_developer">Seconda Casa — new build from developer (IVA applies)</option>
+</select>
+<label>Buyer Type</label>
+<select id="buyer_type">
+  <option value="resident">EU/EEA resident (full rights)</option>
+  <option value="nonresident">Non-EU buyer (3% IVAFE on foreign income applies separately)</option>
+</select>
+<button onclick="calcProperty()">Calculate Total Costs</button>
+<div id="prop_result" class="result-box"></div>
+<div class="info-box">
+<strong>Key rules (DPR 131/1986 + D.Lgs. 23/2011):</strong><br>
+• <em>Prima casa</em> concession: imposta di registro 2% (min €1,000), must be principal residence within 18 months of purchase.<br>
+• <em>Seconda casa</em>: imposta di registro 9% (min €1,000) on cadastral value.<br>
+• New builds from developer: IVA 4% (prima casa) or 10% (seconda casa) on purchase price — registro drops to €200 fixed.<br>
+• Imposta ipotecaria + catastale: €50+€50 (prima casa) or €50+€50 (seconda casa from private); €200+€200 from developer.<br>
+• Notaio emoluments follow DM 265/2012 sliding scale + IVA 22%.
+</div>
+</div>
+
+<div class="card">
+<h2>Plus-Valore Tax (Capital Gain on Resale) — Art. 67 TUIR</h2>
+<table>
+<thead><tr><th>Holding Period</th><th>Tax Rate</th><th>Exemption</th></tr></thead>
+<tbody>
+<tr><td>Less than 5 years</td><td>26% flat tax (cedolare secca) or IRPEF marginal</td><td>None (unless used as main residence for most of holding period)</td></tr>
+<tr><td>5+ years (private seller)</td><td>0%</td><td>Full exemption after 5 years</td></tr>
+<tr><td>Inherited property</td><td>0%</td><td>Always exempt regardless of holding period</td></tr>
+<tr><td>Primary residence sold</td><td>0%</td><td>Exempt if used as main home for majority of holding period</td></tr>
+</tbody>
+</table>
+<p style="font-size:.85rem;color:#666;margin-top:12px">Source: TUIR art. 67–68; DL 50/2017 (cedolare secca 26% option introduced).</p>
+</div>
+</div>
+
+<!-- COMPANY TAB -->
+<div id="company" class="panel">
+<div class="card">
+<h2>Company Formation Cost Estimator</h2>
+<label>Entity Type</label>
+<select id="company_type">
+  <option value="srl">SRL — Società a Responsabilità Limitata (min capital €10,000)</option>
+  <option value="srl_sempl">SRL Semplificata — SRLS (capital €1–9,999, founders must be natural persons)</option>
+  <option value="spa">SPA — Società per Azioni (min capital €50,000)</option>
+  <option value="individuale">Ditta Individuale / Sole Trader (no capital requirement)</option>
+</select>
+<label>Share Capital (€)</label>
+<input type="number" id="share_capital" value="10000" min="1" step="1000">
+<button onclick="calcCompany()">Calculate Formation Costs</button>
+<div id="company_result" class="result-box"></div>
+<div class="info-box">
+<strong>Formation route:</strong> All companies registered via Registro delle Imprese (Camere di Commercio). Online formation available for SRL via <em>pratica telematica</em>. Deed (atto costitutivo) requires notaio; SRLS uses standard deed free of charge (no notaio emolument). Codice fiscale (fiscal code) required for all founders.
+</div>
+</div>
+
+<div class="card">
+<h2>SRL vs SPA vs SRLS vs Ditta Individuale</h2>
+<table>
+<thead><tr><th>Entity</th><th>Min Capital</th><th>Liability</th><th>IRES</th><th>IRAP</th><th>Founders</th></tr></thead>
+<tbody>
+<tr><td><strong>SRL</strong></td><td>€10,000</td><td>Limited</td><td>24%</td><td>3.9%</td><td>1+</td></tr>
+<tr><td><strong>SRLS</strong></td><td>€1–€9,999</td><td>Limited</td><td>24%</td><td>3.9%</td><td>Natural persons only</td></tr>
+<tr><td><strong>SPA</strong></td><td>€50,000</td><td>Limited</td><td>24%</td><td>3.9%</td><td>1+</td></tr>
+<tr><td><strong>Ditta Individuale</strong></td><td>None</td><td>Unlimited</td><td>IRPEF</td><td>3.9%</td><td>1 (natural person)</td></tr>
+<tr><td><strong>Partita IVA forfettario</strong></td><td>None</td><td>Unlimited</td><td>15% flat (5% first 5yr)</td><td>Exempt</td><td>1, &lt;€85k turnover</td></tr>
+</tbody>
+</table>
+<p style="font-size:.85rem;color:#666;margin-top:8px">Sources: CC artt. 2325–2328 (SPA), 2462–2471 (SRL); L. 190/2014 (forfettario); D.Lgs. 471/1997 (IRAP).</p>
+</div>
+</div>
+
+<!-- VISA TAB -->
+<div id="visa" class="panel">
+<div class="card">
+<h2>Italy Investor Visa — DL 50/2017 + Circolare MEF</h2>
+<table>
+<thead><tr><th>Investment Route</th><th>Minimum</th><th>Visa Duration</th><th>Key Requirement</th></tr></thead>
+<tbody>
+<tr><td>Innovative startup (PMI innovativa)</td><td>€500,000</td><td>2 years (renewable 3yr)</td><td>Company registered in startup section Registro Imprese</td></tr>
+<tr><td>Italian company (limited shares)</td><td>€1,000,000</td><td>2 years (renewable 3yr)</td><td>Shares in Italian company, held 2+ years</td></tr>
+<tr><td>Italian govt bonds (BTP)</td><td>€2,000,000</td><td>2 years (renewable 3yr)</td><td>BTP held at least 2 years via Italian bank</td></tr>
+<tr><td>Philanthropy / public interest</td><td>€1,000,000</td><td>2 years (renewable 3yr)</td><td>Cultural, scientific or public-interest donation</td></tr>
+</tbody>
+</table>
+<div class="info-box">
+<strong>Key differences from Spain Golden Visa:</strong> Italy has <em>no real estate route</em> — minimum is €500k in an innovative startup. Application to Comitato Agevolazioni (Ministry of Economic Development). Nulla Osta issued within 30 days; visa then applied at Italian consulate abroad. Codice fiscale obtained on arrival.
+</div>
+</div>
+
+<div class="card">
+<h2>Other Italian Residence Permits</h2>
+<table>
+<thead><tr><th>Permit</th><th>Legal Basis</th><th>Duration</th><th>Fee</th></tr></thead>
+<tbody>
+<tr><td>Permesso di soggiorno (employee)</td><td>D.Lgs. 286/1998 art. 5</td><td>1–2 years</td><td>€73.50 + €30.46 postal + €16 stamps</td></tr>
+<tr><td>Permesso di soggiorno (self-employed)</td><td>D.Lgs. 286/1998 art. 26</td><td>2 years</td><td>€73.50 + postal + stamps</td></tr>
+<tr><td>Digital Nomad / Remote Worker Visa</td><td>DL PNRR 2022 + Circ. Interno 2023</td><td>1 year (renewable)</td><td>€116 visa fee</td></tr>
+<tr><td>Carta di soggiorno (5-year)</td><td>D.Lgs. 286/1998 art. 9</td><td>5 years</td><td>€73.50</td></tr>
+<tr><td>Ricongiungimento familiare</td><td>D.Lgs. 286/1998 art. 29</td><td>As sponsor</td><td>€73.50 per family member</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- AVVOCATO TAB -->
+<div id="avvocato" class="panel">
+<div class="card">
+<h2>Avvocato Fee Estimator (DM 55/2014 parametri)</h2>
+<label>Matter Type</label>
+<select id="avv_matter">
+  <option value="property">Property conveyancing assistance</option>
+  <option value="employment">Employment dismissal (licenziamento)</option>
+  <option value="company">Company formation / M&amp;A</option>
+  <option value="litigation">Civil litigation (Tribunale)</option>
+  <option value="immigration">Immigration / residence permit</option>
+  <option value="ip">Intellectual property registration</option>
+</select>
+<label>Case Value / Amount in Dispute (€)</label>
+<input type="number" id="avv_value" value="50000" min="1000" step="5000">
+<button onclick="calcAvvocato()">Estimate Fees</button>
+<div id="avv_result" class="result-box"></div>
+<div class="info-box">
+<strong>DM 55/2014 (parametri forensi):</strong> Italy abolished mandatory fee tariffs in 2012 (DL 1/2012). Fees are now freely negotiated; DM 55/2014 provides reference parameters for court-awarded costs. Hourly rates typically €150–€500/hr for senior avvocati in major cities. IVA 22% applies to legal fees. Cassa Forense contribution (4% welfare surcharge) may be added.
+</div>
+</div>
+</div>
+
+</div><!-- end container -->
+
+<script>
+function switchTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+function notaioFee(price){
+  // DM 265/2012 sliding scale on atto value
+  const bands=[
+    [5165,0.0300],[51646,0.0150],[516457,0.0050],[Infinity,0.0025]
+  ];
+  let fee=0,remaining=price,prev=0;
+  for(const [top,rate] of bands){
+    const slice=Math.min(remaining,top-prev);
+    if(slice<=0)break;
+    fee+=slice*rate;
+    remaining-=slice;
+    prev=top;
+    if(remaining<=0)break;
+  }
+  fee=Math.max(fee,500); // minimum
+  return Math.round(fee*1.22); // +IVA 22%
+}
+
+function fmt(n){return'€'+n.toLocaleString('en-GB',{maximumFractionDigits:0})}
+
+function calcProperty(){
+  const price=parseFloat(document.getElementById('prop_price').value)||0;
+  const cad=parseFloat(document.getElementById('cad_value').value)||price*0.75;
+  const type=document.getElementById('prop_type').value;
+  let registro=0,iva=0,ipotec=50,catast=50,fixedReg=0;
+  let rows=[];
+
+  if(type==='prima_privato'){
+    registro=Math.max(Math.round(cad*0.02),1000);
+    rows.push(['Imposta di registro (2% × cadastral — DPR 131/1986)',fmt(registro)]);
+    rows.push(['Imposta ipotecaria (fixed)',fmt(ipotec)]);
+    rows.push(['Imposta catastale (fixed)',fmt(catast)]);
+  } else if(type==='seconda_privato'){
+    registro=Math.max(Math.round(cad*0.09),1000);
+    rows.push(['Imposta di registro (9% × cadastral — DPR 131/1986)',fmt(registro)]);
+    rows.push(['Imposta ipotecaria (fixed)',fmt(ipotec)]);
+    rows.push(['Imposta catastale (fixed)',fmt(catast)]);
+  } else if(type==='prima_developer'){
+    iva=Math.round(price*0.04);
+    fixedReg=200;
+    rows.push(['IVA 4% on purchase price (prima casa new build)',fmt(iva)]);
+    rows.push(['Imposta di registro (fixed)',fmt(fixedReg)]);
+    rows.push(['Imposta ipotecaria (fixed €200)',fmt(200)]);
+    rows.push(['Imposta catastale (fixed €200)',fmt(200)]);
+    ipotec=200;catast=200;
+  } else {
+    iva=Math.round(price*0.10);
+    fixedReg=200;
+    rows.push(['IVA 10% on purchase price (seconda casa new build)',fmt(iva)]);
+    rows.push(['Imposta di registro (fixed)',fmt(fixedReg)]);
+    rows.push(['Imposta ipotecaria (fixed €200)',fmt(200)]);
+    rows.push(['Imposta catastale (fixed €200)',fmt(200)]);
+    ipotec=200;catast=200;
+  }
+
+  const notaio=notaioFee(price);
+  rows.push(['Notaio emoluments + IVA 22% (DM 265/2012)',fmt(notaio)]);
+  const avv=Math.round(price*0.008);
+  rows.push(['Avvocato assistance (est. 0.8% — optional)',fmt(avv)]);
+
+  const taxes=registro+iva+(type.includes('developer')?400:100)+fixedReg;
+  const total=taxes+notaio+avv;
+
+  const box=document.getElementById('prop_result');
+  box.style.display='block';
+  box.innerHTML='<h3>Estimated Purchase Costs</h3>'+
+    rows.map(r=>'<div class="result-row"><span>'+r[0]+'</span><span>'+r[1]+'</span></div>').join('')+
+    '<div class="result-row"><span>TOTAL ADDITIONAL COSTS</span><span>'+fmt(total)+'</span></div>'+
+    '<div class="result-row"><span>As % of purchase price</span><span>'+(total/price*100).toFixed(1)+'%</span></div>';
+}
+
+function calcCompany(){
+  const type=document.getElementById('company_type').value;
+  const capital=parseFloat(document.getElementById('share_capital').value)||0;
+  const box=document.getElementById('company_result');
+  let rows=[];
+
+  if(type==='srl'){
+    rows=[
+      ['Notaio (atto costitutivo) est.','€1,500–€2,500 + IVA 22%'],
+      ['Registro Imprese (Camera di Commercio) fee','€200 (telematico) or €318 (cartaceo)'],
+      ['Tassa di concessione governativa','€309.87'],
+      ['Diritto annuale CCIAA (first year)','€140–€200'],
+      ['Commercialista (accounting setup)','€800–€2,000'],
+      ['Total (excl. capital deposit)','~€3,000–€5,500'],
+      ['Minimum capital required','€10,000 (min 25% at deed, rest within 90 days)'],
+    ];
+  } else if(type==='srl_sempl'){
+    rows=[
+      ['Notaio (standard deed — free for SRLS)','€0 (L. 27/2012 art. 3)'],
+      ['Registro Imprese fee','€200'],
+      ['Tassa di concessione governativa','€309.87'],
+      ['Diritto annuale CCIAA','€140–€200'],
+      ['Commercialista (setup)','€800–€1,500'],
+      ['Total (excl. capital)','~€1,400–€2,200'],
+      ['Capital range','€1–€9,999 (must be fully paid at deed)'],
+    ];
+  } else if(type==='spa'){
+    rows=[
+      ['Notaio (atto costitutivo SPA)','€3,000–€6,000 + IVA 22%'],
+      ['Registro Imprese fee','€390'],
+      ['Tassa di concessione governativa','€309.87'],
+      ['Diritto annuale CCIAA','€200+'],
+      ['Commercialista + legal counsel','€2,000–€5,000'],
+      ['Total (excl. capital)','~€6,000–€12,000'],
+      ['Minimum capital','€50,000 (min 25% at deed; 25% if single shareholder = 100%)'],
+    ];
+  } else {
+    rows=[
+      ['CCIAA registration','€50–€100'],
+      ['Apertura Partita IVA (Agenzia delle Entrate)','Free (online)'],
+      ['INPS iscrizione (Gestione Separata or artigiani/commercianti)','Free to register'],
+      ['INPS contributions (first year estimate)','€3,500–€4,000 min (artigiani)'],
+      ['Commercialista (annual)','€800–€1,500/year'],
+      ['Total setup','~€1,000–€2,000 (excl. INPS contributions)'],
+    ];
+  }
+
+  box.style.display='block';
+  box.innerHTML='<h3>Estimated Formation Costs</h3>'+
+    rows.map(r=>'<div class="result-row"><span>'+r[0]+'</span><span>'+r[1]+'</span></div>').join('');
+}
+
+function calcAvvocato(){
+  const matter=document.getElementById('avv_matter').value;
+  const val=parseFloat(document.getElementById('avv_value').value)||0;
+  const box=document.getElementById('avv_result');
+
+  const params={
+    property:{low:0.008,high:0.015,fixed:[1200,3500],desc:'Property — title due diligence, notaio assistance, rogito review'},
+    employment:{low:0.05,high:0.12,fixed:[800,2500],desc:'Employment — dismissal challenge, Tribunale del Lavoro'},
+    company:{low:0.01,high:0.025,fixed:[1500,5000],desc:'Corporate — formation, shareholders' agreement, M&A'},
+    litigation:{low:0.03,high:0.08,fixed:[1000,4000],desc:'Civil litigation — Tribunale, first instance to judgment'},
+    immigration:{low:null,high:null,fixed:[600,1800],desc:'Immigration — permesso application, investor visa'},
+    ip:{low:null,high:null,fixed:[400,1500],desc:'IP — trademark filing, opposition, infringement advice'},
+  };
+
+  const p=params[matter];
+  let low,high;
+  if(p.low){
+    low=Math.max(Math.round(val*p.low),p.fixed[0]);
+    high=Math.max(Math.round(val*p.high),p.fixed[1]);
+  } else {
+    low=p.fixed[0]; high=p.fixed[1];
+  }
+
+  box.style.display='block';
+  box.innerHTML='<h3>Estimated Avvocato Fees</h3>'+
+    '<div class="result-row"><span>Matter type</span><span>'+p.desc+'</span></div>'+
+    '<div class="result-row"><span>Fee range (excl. IVA 22%)</span><span>'+fmt(low)+' – '+fmt(high)+'</span></div>'+
+    '<div class="result-row"><span>IVA 22% on fees</span><span>'+fmt(Math.round(low*0.22))+' – '+fmt(Math.round(high*0.22))+'</span></div>'+
+    '<div class="result-row"><span>Cassa Forense 4% surcharge</span><span>'+fmt(Math.round(low*0.04))+' – '+fmt(Math.round(high*0.04))+'</span></div>'+
+    '<div class="result-row"><span>TOTAL estimated</span><span>'+fmt(Math.round(low*1.26))+' – '+fmt(Math.round(high*1.26))+'</span></div>';
+}
+</script>
+
+<footer style="background:#1a1a2e;color:#ccc;padding:24px;text-align:center;font-size:.85rem">
+&copy; 2026 AvökatFinder — Informational purposes only. Not legal or tax advice. Consult a qualified avvocato or commercialista.
+</footer>
+</body>
+</html>
