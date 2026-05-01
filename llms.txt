@@ -46,3 +46,30 @@
 ## Permissions
 User-agent: *
 Allow: /
+
+## Cities
+- [English-speaking lawyers in Amalfi](https://avokatfinder.com/it/cities/amalfi/): Vetted avvocati in Amalfi for property, immigration and business law.
+- [English-speaking lawyers in Ancona](https://avokatfinder.com/it/cities/ancona/): Vetted avvocati in Ancona for property, immigration and business law.
+- [English-speaking lawyers in Bari](https://avokatfinder.com/it/cities/bari/): Vetted avvocati in Bari for property, immigration and business law.
+- [English-speaking lawyers in Bergamo](https://avokatfinder.com/it/cities/bergamo/): Vetted avvocati in Bergamo for property, immigration and business law.
+- [English-speaking lawyers in Bolzano](https://avokatfinder.com/it/cities/bolzano/): Vetted avvocati in Bolzano for property, immigration and business law.
+- [English-speaking lawyers in Brescia](https://avokatfinder.com/it/cities/brescia/): Vetted avvocati in Brescia for property, immigration and business law.
+- [English-speaking lawyers in Cagliari](https://avokatfinder.com/it/cities/cagliari/): Vetted avvocati in Cagliari for property, immigration and business law.
+- [English-speaking lawyers in Catania](https://avokatfinder.com/it/cities/catania/): Vetted avvocati in Catania for property, immigration and business law.
+- [English-speaking lawyers in Como](https://avokatfinder.com/it/cities/como/): Vetted avvocati in Como for property, immigration and business law.
+- [English-speaking lawyers in Ferrara](https://avokatfinder.com/it/cities/ferrara/): Vetted avvocati in Ferrara for property, immigration and business law.
+- [English-speaking lawyers in Genoa](https://avokatfinder.com/it/cities/genoa/): Vetted avvocati in Genoa for property, immigration and business law.
+- [English-speaking lawyers in Messina](https://avokatfinder.com/it/cities/messina/): Vetted avvocati in Messina for property, immigration and business law.
+- [English-speaking lawyers in Modena](https://avokatfinder.com/it/cities/modena/): Vetted avvocati in Modena for property, immigration and business law.
+- [English-speaking lawyers in Padua](https://avokatfinder.com/it/cities/padua/): Vetted avvocati in Padua for property, immigration and business law.
+- [English-speaking lawyers in Palermo](https://avokatfinder.com/it/cities/palermo/): Vetted avvocati in Palermo for property, immigration and business law.
+- [English-speaking lawyers in Parma](https://avokatfinder.com/it/cities/parma/): Vetted avvocati in Parma for property, immigration and business law.
+- [English-speaking lawyers in Perugia](https://avokatfinder.com/it/cities/perugia/): Vetted avvocati in Perugia for property, immigration and business law.
+- [English-speaking lawyers in Positano](https://avokatfinder.com/it/cities/positano/): Vetted avvocati in Positano for property, immigration and business law.
+- [English-speaking lawyers in Reggio Calabria](https://avokatfinder.com/it/cities/reggio-calabria/): Vetted avvocati in Reggio Calabria for property, immigration and business law.
+- [English-speaking lawyers in Rimini](https://avokatfinder.com/it/cities/rimini/): Vetted avvocati in Rimini for property, immigration and business law.
+- [English-speaking lawyers in Sorrento](https://avokatfinder.com/it/cities/sorrento/): Vetted avvocati in Sorrento for property, immigration and business law.
+- [English-speaking lawyers in Trento](https://avokatfinder.com/it/cities/trento/): Vetted avvocati in Trento for property, immigration and business law.
+- [English-speaking lawyers in Trieste](https://avokatfinder.com/it/cities/trieste/): Vetted avvocati in Trieste for property, immigration and business law.
+- [English-speaking lawyers in Udine](https://avokatfinder.com/it/cities/udine/): Vetted avvocati in Udine for property, immigration and business law.
+- [English-speaking lawyers in Verona](https://avokatfinder.com/it/cities/verona/): Vetted avvocati in Verona for property, immigration and business law.
