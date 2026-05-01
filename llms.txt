@@ -73,3 +73,9 @@ Allow: /
 - [English-speaking lawyers in Trieste](https://avokatfinder.com/it/cities/trieste/): Vetted avvocati in Trieste for property, immigration and business law.
 - [English-speaking lawyers in Udine](https://avokatfinder.com/it/cities/udine/): Vetted avvocati in Udine for property, immigration and business law.
 - [English-speaking lawyers in Verona](https://avokatfinder.com/it/cities/verona/): Vetted avvocati in Verona for property, immigration and business law.
+
+## Interactive Legal Tools
+
+- [Italian Legal Cost Calculator](https://italy.avokatfinder.com/tools/legal-cost-calculator/): Calculate imposta di registro (2% prima casa / 9% seconda casa), notaio emoluments (DM 265/2012), IMU, SRL/SRLS/SPA formation costs, investor visa thresholds and avvocato fee estimates.
+- [Bilingual Italian Legal Templates (IT/EN)](https://italy.avokatfinder.com/tools/legal-templates/): NDA under D.Lgs. 63/2018, lettera d'incarico (L. 247/2012 deontologia forense), diffida/messa in mora (CC art. 1219) — copy-paste ready.
+- [Which Italian Legal Professional Do I Need?](https://italy.avokatfinder.com/tools/how-to-choose-a-lawyer/): Decision tree covering avvocato, notaio, commercialista, consulente del lavoro and mediatore civile with fee ranges and legal basis.
