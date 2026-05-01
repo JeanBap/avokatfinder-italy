@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Which Italian Legal Professional Do I Need? | AvökatFinder Italy</title>
+<meta name="description" content="Avvocato, notaio, commercialista, or consulente del lavoro? Answer 3 quick questions to find out which Italian legal professional handles your situation, and what they charge.">
+<link rel="canonical" href="https://italy.avokatfinder.com/tools/how-to-choose-a-lawyer/">
+<meta property="og:title" content="Which Italian Legal Professional Do I Need?">
+<meta property="og:url" content="https://italy.avokatfinder.com/tools/how-to-choose-a-lawyer/">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Which Italian Legal Professional Do I Need?","url":"https://italy.avokatfinder.com/tools/how-to-choose-a-lawyer/","description":"Decision tree to find the right Italian legal professional: avvocato, notaio, commercialista, consulente del lavoro, or geometra.","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Italy","item":"https://italy.avokatfinder.com/"},{"@type":"ListItem","position":2,"name":"Legal Tools","item":"https://italy.avokatfinder.com/tools/"},{"@type":"ListItem","position":3,"name":"How to Choose a Lawyer","item":"https://italy.avokatfinder.com/tools/how-to-choose-a-lawyer/"}]},"mainEntity":{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an avvocato and a notaio in Italy?","acceptedAnswer":{"@type":"Answer","text":"An avvocato represents clients in disputes and litigation and provides legal advice. A notaio is a public official who authenticates deeds (atti pubblici) such as property sales, company formations and wills. Both are legally trained but serve completely different functions. You need a notaio for any property transfer; you need an avvocato if you are in a dispute."}},{"@type":"Question","name":"Does Italy require a lawyer for property purchase?","acceptedAnswer":{"@type":"Answer","text":"A notaio is legally required to execute the deed of sale (rogito notarile) for any Italian property purchase. An avvocato is optional but strongly recommended to review the compromesso (preliminary contract), conduct due diligence on the title, and advise on ITP, mortgage conditions and planning compliance."}}]}}
+</script>
+<style>
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin:0;color:#1a1a2e;background:#f8f9fa}
+header{background:#1a1a2e;color:#fff;padding:16px 24px;display:flex;align-items:center;gap:16px}
+header a{color:#f0c040;text-decoration:none;font-weight:700;font-size:1.3rem}
+.hero{background:linear-gradient(135deg,#1a1a2e 0%,#2d5016 100%);color:#fff;padding:40px 24px;text-align:center}
+.hero h1{font-size:1.9rem;margin:0 0 10px}
+.container{max-width:860px;margin:0 auto;padding:32px 24px}
+.question-card{background:#fff;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,.1);padding:36px;text-align:center;margin-bottom:24px}
+.question-card h2{font-size:1.4rem;margin:0 0 28px;color:#1a1a2e}
+.options{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.opt{padding:16px 20px;border:2px solid #e0e0e0;border-radius:12px;cursor:pointer;font-size:.95rem;font-weight:600;text-align:left;background:#fff;transition:all .2s;line-height:1.4}
+.opt:hover{border-color:#2d5016;background:#f0f9e8;transform:translateY(-2px)}
+.result-card{background:#fff;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,.1);padding:36px;display:none}
+.result-icon{font-size:3rem;margin-bottom:12px}
+.result-card h2{font-size:1.5rem;margin:0 0 8px;color:#2d5016}
+.result-card .subtitle{color:#666;margin:0 0 24px;font-size:.95rem}
+.result-card .body{line-height:1.7;margin-bottom:20px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.tag{background:#e8f5e0;color:#2d5016;padding:5px 12px;border-radius:6px;font-size:.82rem;font-weight:600}
+.tip-box{background:#fff8e1;border-left:4px solid #f0c040;padding:14px 18px;border-radius:0 8px 8px 0;font-size:.88rem;margin-bottom:24px;line-height:1.6}
+.restart-btn{background:#2d5016;color:#fff;border:none;padding:12px 28px;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer;margin-right:12px}
+.restart-btn:hover{background:#1e3a0f}
+.comparison-section{margin-top:48px}
+table{width:100%;border-collapse:collapse}
+th{background:#1a1a2e;color:#fff;padding:11px 14px;text-align:left;font-size:.85rem}
+td{padding:10px 14px;border-bottom:1px solid #e8e8e8;font-size:.85rem;vertical-align:top}
+tr:nth-child(even){background:#f8faf5}
+h3{font-size:1.25rem;margin:0 0 16px}
+footer{background:#1a1a2e;color:#ccc;padding:24px;text-align:center;font-size:.85rem;margin-top:48px}
+</style>
+</head>
+<body>
+<header>
+<a href="/">AvökatFinder Italy</a>
+<nav style="margin-left:auto"><a href="/tools/" style="color:#f0c040;text-decoration:none">← All Tools</a></nav>
+</header>
+<div class="hero">
+<h1>Which Italian Legal Professional Do You Need?</h1>
+<p>Italy has avvocati, notai, commercialisti, consulenti del lavoro and geometri — each with distinct, regulated roles.</p>
+</div>
+<div class="container">
+<div id="q1" class="question-card">
+  <h2>What is your situation?</h2>
+  <div class="options">
+    <button class="opt" onclick="choose('property')">🏠 Buying or selling property in Italy</button>
+    <button class="opt" onclick="choose('employment')">👔 Employment dispute or workplace issue</button>
+    <button class="opt" onclick="choose('company')">🏢 Starting or running a company in Italy</button>
+    <button class="opt" onclick="choose('immigration')">✈️ Residence permit, visa or citizenship</button>
+    <button class="opt" onclick="choose('family')">👨‍👩‍👧 Family law — divorce, inheritance, custody</button>
+    <button class="opt" onclick="choose('criminal')">⚖️ Criminal investigation or charge</button>
+    <button class="opt" onclick="choose('debt')">💳 Chasing a debt or being chased</button>
+    <button class="opt" onclick="choose('tax')">💰 Italian tax return or tax dispute</button>
+    <button class="opt" onclick="choose('ip')">💡 Trademark, patent or copyright</button>
+    <button class="opt" onclick="choose('notarial')">📜 Will, inheritance deed, or power of attorney</button>
+  </div>
+</div>
+
+<div id="result" class="result-card"></div>
+
+<div class="comparison-section">
+  <h3>Italian Legal Professionals — Quick Comparison</h3>
+  <table>
+    <thead><tr><th>Professional</th><th>Role</th><th>Needed for</th><th>Typical Fees</th><th>Register</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Avvocato</strong></td><td>Legal advice, litigation, contracts</td><td>Disputes, criminal, employment, IP enforcement</td><td>€150–€500/hr or fixed fee; DM 55/2014 parameters</td><td>Albo degli Avvocati (local Ordine)</td></tr>
+      <tr><td><strong>Notaio</strong></td><td>Public officer authenticating deeds</td><td>Property transfers (mandatory), company formation, wills</td><td>DM 265/2012 sliding scale; ~€1,500–€4,000 + IVA for €300k property</td><td>Consiglio Nazionale del Notariato</td></tr>
+      <tr><td><strong>Commercialista</strong></td><td>Accounting, tax, corporate advisory</td><td>Tax returns, company accounts, tax disputes at Commissioni Tributarie</td><td>€800–€3,000/year for accounts; hourly €100–€250</td><td>Ordine dei Dottori Commercialisti ed Esperti Contabili</td></tr>
+      <tr><td><strong>Consulente del Lavoro</strong></td><td>Payroll, labour law admin, INPS</td><td>Hiring employees, payroll, redundancy procedures</td><td>€50–€150/employee/month for payroll; €300–€800 for procedures</td><td>Ordine dei Consulenti del Lavoro</td></tr>
+      <tr><td><strong>Geometra / Ingegnere</strong></td><td>Land surveying, planning, cadastre</td><td>Cadastral corrections, building plans, DOCFA filings</td><td>€500–€3,000 depending on project</td><td>Collegio dei Geometri / Ordine degli Ingegneri</td></tr>
+      <tr><td><strong>Mediatore Civile</strong></td><td>Certified ADR mediator</td><td>Mandatory mediation (D.Lgs. 28/2010) before court in property, inheritance, banking disputes</td><td>€40–€600 per session depending on value</td><td>Organismi di mediazione registered with Ministry of Justice</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<script>
+const results = {
+  property: {
+    icon:'🏠',
+    title:'You need a Notaio (mandatory) + Avvocato (recommended)',
+    subtitle:'Every Italian property sale requires a notaio to execute the rogito notarile.',
+    body:'The <strong>notaio</strong> is legally required for the deed of sale (rogito). The notaio is neutral — they represent neither buyer nor seller. For expat buyers, hiring an <strong>avvocato</strong> separately to review the compromesso (preliminary contract), check planning status, conduct mortgage-register searches (visura ipotecaria) and advise on the imposta di registro is strongly recommended. A <strong>geometra</strong> may also be needed to verify cadastral data and check for any abusi edilizi.',
+    tags:['Notaio mandatory','Avvocato optional but advised','Geometra for surveys','Imposta di registro 2%/9%'],
+    tip:'Tip: The notaio's identity must appear on both the compromesso and the rogito. Always instruct your own avvocato — not the notaio recommended by the agent, who may have conflicts of interest.'
+  },
+  employment: {
+    icon:'👔',
+    title:'You need an Avvocato (labour law specialist) or Consulente del Lavoro',
+    subtitle:'Employment disputes in Italy go to the Tribunale del Lavoro (sezione lavoro).',
+    body:'For <strong>dismissal challenges</strong> (impugnazione del licenziamento), hire an <strong>avvocato</strong> specialised in diritto del lavoro. You must impugn in writing within <strong>60 days</strong> of dismissal (CC art. 6 L. 604/1966), and file at the Tribunale within 180 days. Compensation under D.Lgs. 23/2015 (<em>tutela crescente</em>) ranges from 2 months per year of service, minimum 4 months, maximum 24 months. For payroll issues, hiring, or INPS matters, a <strong>consulente del lavoro</strong> is often sufficient and cheaper.',
+    tags:['60-day written impugn deadline','D.Lgs. 23/2015 tutela crescente','INPS via consulente del lavoro'],
+    tip:'Tip: If your employer has >15 employees and you were hired before 7 March 2015, the older L. 300/1970 art. 18 protections (reinstatement possible) may still apply. Confirm which regime with your avvocato.'
+  },
+  company: {
+    icon:'🏢',
+    title:'You need a Notaio (for formation deed) + Commercialista (for accounts)',
+    subtitle:'All Italian companies require a notarial deed plus ongoing accountancy.',
+    body:'Forming an SRL requires a <strong>notaio</strong> to execute the atto costitutivo (€1,500–€3,000 + IVA). An SRLS can use a free standard deed but a notaio still executes it. A <strong>commercialista</strong> then handles annual accounts, Registro Imprese filings, IRPEF/IRES/IVA returns, and Codice Fiscale registration. For investor visa applications (DL 50/2017), an <strong>avvocato</strong> handles the Comitato Agevolazioni application.',
+    tags:['Notaio for atto costitutivo','Commercialista for accounts','CCIAA Registro Imprese','Codice Fiscale required'],
+    tip:'Tip: For a standard SRL with foreign shareholders, budget €3,000–€6,000 for setup including notaio, Registro Imprese fees, and first-year commercialista. An SRLS (capital €1–€9,999) uses a free standard deed but is limited to natural persons.'
+  },
+  immigration: {
+    icon:'✈️',
+    title:'You need an Avvocato (immigration specialist)',
+    subtitle:'Permesso di soggiorno applications are processed via Sportello Unico Immigrazione.',
+    body:'An <strong>avvocato specialised in diritto dell'immigrazione</strong> handles: work permit applications (nulla osta), permesso di soggiorno renewals (at Questura / Sportello Unico), investor visa applications (DL 50/2017 via Comitato Agevolazioni), digital nomad visas (2023 circular), and citizenship by descent (jus sanguinis). For EU/EEA citizens registering residence at the Comune, a lawyer is not legally required but often helpful. The <strong>patronato</strong> (INPS/CAF affiliates) can help with simpler permit renewals at low cost.',
+    tags:['Questura for permesso','Consolato for visa','30-day investor visa decision','EU citizens register at Comune'],
+    tip:'Tip: The Italian digital nomad visa (visto per lavoro autonomo / freelancer) was introduced in 2022 but uptake has been slow — processing varies by consulate. Confirm current practice with a specialist avvocato before applying.'
+  },
+  family: {
+    icon:'👨‍👩‍👧',
+    title:'You need an Avvocato (family law) + possibly a Notaio',
+    subtitle:'Divorce in Italy requires at least a written agreement; contested cases go to Tribunale.',
+    body:'Italian divorce (<em>divorzio</em>) has three routes: (1) <strong>Accordo in Comune</strong> — both spouses agree, no children under 18 or disabled, resolved at Comune with <em>ufficiale di stato civile</em> in 15 minutes; (2) <strong>Negoziazione assistita</strong> — both avvocati negotiate a binding agreement (L. 162/2014), avoids court; (3) <strong>Procedura giudiziale</strong> — contested, before Tribunale. Inheritance (<em>successione</em>) requires a notaio for the atto di notorietà and any deed of acceptance. Child maintenance (<em>assegno di mantenimento</em>) is set by the Tribunale per i Minorenni.',
+    tags:['Divorzio at Comune if agreed','Negoziazione assistita L. 162/2014','Notaio for inheritance deeds'],
+    tip:'Tip: Italian law requires a 6-month separation period (ridotto a zero if children) before divorce can be filed under the new rules (L. 55/2015 — "divorzio breve"). An avvocato can advise on whether the accordo in Comune route applies.'
+  },
+  criminal: {
+    icon:'⚖️',
+    title:'You need an Avvocato penalista (criminal defence lawyer)',
+    subtitle:'Italian criminal procedure is governed by the Codice di Procedura Penale (CPP).',
+    body:'If arrested or questioned as <em>indagato</em> (suspect), you have the right to a <strong>difensore di fiducia</strong> (chosen lawyer) under CPP art. 63. If you cannot afford one, a <em>difensore d'ufficio</em> is appointed. Do not answer questions without your avvocato present. The Italian criminal process runs: indagini preliminari (GIP) → udienza preliminare → dibattimento. For expats: if detained, the Italian consulate of your nationality must be notified under the Vienna Convention. Patrocinio a spese dello Stato (legal aid) is available for those with ISEE income below €11,746.68.',
+    tags:['Right to avvocato on arrest','CPP art. 63 rights','Legal aid if income < €11,747','Vienna Convention consular notification'],
+    tip:'Tip: The statute of limitations (prescrizione) runs from the date of the offence and varies by crime. A criminal avvocato should assess prescription timelines early — this is a key Italian criminal defence strategy.'
+  },
+  debt: {
+    icon:'💳',
+    title:'You need an Avvocato or, for smaller amounts, file yourself via procedimento monitorio',
+    subtitle:'Italy's decreto ingiuntivo (CPC art. 633) is the fastest route for undisputed debts.',
+    body:'For unpisputed debts: the <em>decreto ingiuntivo</em> (CPC artt. 633–656) lets you apply to the Tribunale for a payment order, which becomes enforceable within 40 days if unopposed. An <strong>avvocato</strong> is required at the Tribunale. For smaller claims (up to €5,000): Giudice di Pace, where you can represent yourself. Mandatory mediation (D.Lgs. 28/2010) must be attempted first for banking and financial services disputes before going to court. Recovery costs: €40 fixed + ECB+8pp interest under D.Lgs. 231/2002 for B2B commercial debts.',
+    tags:['Decreto ingiuntivo CPC art. 633','40-day opposition period','D.Lgs. 231/2002 interest','Giudice di Pace up to €5,000'],
+    tip:'Tip: Send a diffida/messa in mora by raccomandata A/R or PEC before filing — it triggers default interest and shows good faith. Use our template above.'
+  },
+  tax: {
+    icon:'💰',
+    title:'You need a Commercialista (or Avvocato tributarista for disputes)',
+    subtitle:'Italian tax returns (730, Modello Redditi) are handled by commercialisti or CAF.',
+    body:'A <strong>commercialista</strong> handles: annual income tax return (Modello 730 / Modello Redditi PF), IVA declarations, company accounts (bilancio), INPS contributions. CAF (Centri di Assistenza Fiscale) offices handle simpler returns for employees cheaply. For <strong>tax disputes</strong> with Agenzia delle Entrate, first file a <em>ricorso in autotutela</em>, then appeal to the <em>Corte di Giustizia Tributaria</em> — you need either a commercialista (for small amounts) or an <strong>avvocato tributarista</strong> for major cases. Italy also has the <em>concordato preventivo biennale</em> (introduced 2024) for self-employed flat-rate taxpayers.',
+    tags:['Modello 730 for employees','Modello Redditi PF self-employed','Corte di Giustizia Tributaria','CAF for simple returns'],
+    tip:'Tip: Foreign-source income must generally be declared in Italy if you are an Italian tax resident (present 183+ days/year — CC art. 2 TUIR). The "impatriate regime" (art. 5 D.Lgs. 209/2023) offers a 50% exemption for 5 years for new tax residents.'
+  },
+  ip: {
+    icon:'💡',
+    title:'You need an Avvocato IP specialist or Patent/Trademark Attorney (Consulente in PI)',
+    subtitle:'UIBM (Ufficio Italiano Brevetti e Marchi) handles trademark and patent registrations.',
+    body:'For <strong>trademark registration</strong> in Italy: file at UIBM (€101 for first class). For EU-wide trademark: EUIPO (€850 one class). An <strong>avvocato specialised in proprietà intellettuale</strong> or a registered <em>consulente in proprietà industriale</em> can advise on registrability and handle UIBM oppositions. For <strong>copyright</strong> in Italy: no registration required — protection arises automatically under L. 633/1941. For <strong>patents</strong>: UIBM national patent (€120 + annual fees) or EPO European patent (€1,620+ filing). The UPC (Unified Patent Court) has been in operation since June 2023 for European bundle patents.',
+    tags:['UIBM for Italian marks €101','EUIPO for EU marks €850','Copyright L. 633/1941 automatic','UPC since June 2023'],
+    tip:'Tip: Italian copyright in software and databases is automatic (L. 633/1941 artt. 64-bis to 64-quater). Timestamp your source code (notaio self-certification or timestamping service) to establish priority dates if needed.'
+  },
+  notarial: {
+    icon:'📜',
+    title:'You need a Notaio',
+    subtitle:'Notai are public officers who authenticate legally significant acts in Italy.',
+    body:'A <strong>notaio</strong> is mandatory for: property deeds (rogito), company formation (atto costitutivo), wills (testamento olografo can be self-written but notaio is needed for pubblicazione on death), powers of attorney for real estate, acceptance of inheritance (accettazione dell'eredità), and marriage contracts. Notaio fees follow DM 265/2012: for a will (testamento pubblico), expect €300–€800 + IVA 22%. For a simple procura (power of attorney), €200–€500. Notai are impartial public officers — for adversarial matters, you also need an avvocato.',
+    tags:['Notaio mandatory for property','Testamento pubblico €300–€800','Procura notarile €200–€500','DM 265/2012 fee scale'],
+    tip:'Tip: Italy recognises the testamento olografo (handwritten will) which does not require a notaio during the testator's lifetime — but it must be entirely handwritten, dated, and signed. After death, it must be published (pubblicazione) by a notaio.'
+  }
+};
+
+function choose(key){
+  document.getElementById('q1').style.display='none';
+  const r=results[key];
+  const box=document.getElementById('result');
+  box.innerHTML=`<div class="result-icon">${r.icon}</div>
+    <h2>${r.title}</h2>
+    <p class="subtitle">${r.subtitle}</p>
+    <div class="body">${r.body}</div>
+    <div class="tags">${r.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+    <div class="tip-box">💡 ${r.tip}</div>
+    <button class="restart-btn" onclick="restart()">↩ Start Again</button>
+    <a href="/find-a-lawyer/" style="display:inline-block;background:#f0c040;color:#1a1a2e;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:700">Find an Avvocato in Italy →</a>`;
+  box.style.display='block';
+}
+
+function restart(){
+  document.getElementById('q1').style.display='block';
+  document.getElementById('result').style.display='none';
+}
+</script>
+<footer>&copy; 2026 AvökatFinder — Decision tree for guidance only. Not legal advice.</footer>
+</body>
+</html>
